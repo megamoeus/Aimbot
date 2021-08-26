@@ -4,9 +4,9 @@ local hold=false
 
 --settings
 local keybind=Enum.KeyCode.E
-local enablepconsole=true
+local enablepconsole=false
 local fov=250
-local teamcheck=false
+local teamcheck=true
 
 if enablepconsole then
    rconsoleprint("third person aimbot loaded")
