@@ -9,7 +9,6 @@ local fov=250
 local teamcheck=false
 
 if enablepconsole then\
-   rconsoleprint("Made By plaguedoctor#0001")
    rconsoleprint("Private Third Person Aimbot Loaded")
 else
    warn("Private Third Person Aimbot Loaded")
