@@ -8,10 +8,10 @@ local enablepconsole=true
 local fov=250
 local teamcheck=false
 
-if enablepconsole then\
-   rconsoleprint("Private Third Person Aimbot Loaded")
+if enablepconsole then
+   rconsoleprint("third person aimbot loaded")
 else
-   warn("Private Third Person Aimbot Loaded")
+   warn("third person aimbot loaded")
 end
 
 if teamcheck then
