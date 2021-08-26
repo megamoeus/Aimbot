@@ -4,14 +4,14 @@ local hold=false
 
 --settings
 local keybind=Enum.KeyCode.E
-local enablepconsole=false
+local enablepconsole=true
 local fov=250
-local teamcheck=true
+local teamcheck=false
 
 if enablepconsole then
-   rconsoleprint("third person aimbot loaded")
+   rconsoleprint("Private Aimbot V4 Loaded")
 else
-   warn("third person aimbot loaded")
+   warn("Private Aimbot V4 Loaded")
 end
 
 if teamcheck then
